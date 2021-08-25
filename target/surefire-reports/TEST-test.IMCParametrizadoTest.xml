@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.IMCParametrizadoTest" time="2.515" tests="45" errors="0" skipped="0" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\mayco\Desktop\Desafio\JUnitODS"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\mayco\Desktop\Desafio\JUnitODS"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\mayco\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\mayco\AppData\Local\Microsoft\WindowsApps;;C:\Users\mayco\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.1\bin;;C:\Users\mayco\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\mayco"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="mayco"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dmaven.ext.class.path=C:\Program Files\NetBeans-12.0\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 clean install"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testIMC[CT01]" classname="test.IMCParametrizadoTest" time="0.194"/>
+  <testcase name="testIMC[CT02]" classname="test.IMCParametrizadoTest" time="0.028"/>
+  <testcase name="testIMC[CT03]" classname="test.IMCParametrizadoTest" time="0.05"/>
+  <testcase name="testIMC[CT04]" classname="test.IMCParametrizadoTest" time="0.026"/>
+  <testcase name="testIMC[CT05]" classname="test.IMCParametrizadoTest" time="0.028"/>
+  <testcase name="testIMC[CT06]" classname="test.IMCParametrizadoTest" time="0.05"/>
+  <testcase name="testIMC[CT07]" classname="test.IMCParametrizadoTest" time="0.029"/>
+  <testcase name="testIMC[CT08]" classname="test.IMCParametrizadoTest" time="0.032"/>
+  <testcase name="testIMC[CT09]" classname="test.IMCParametrizadoTest" time="0.029"/>
+  <testcase name="testIMC[CT10]" classname="test.IMCParametrizadoTest" time="0.032"/>
+  <testcase name="testIMC[CT11]" classname="test.IMCParametrizadoTest" time="0.029"/>
+  <testcase name="testIMC[CT12]" classname="test.IMCParametrizadoTest" time="0.031"/>
+  <testcase name="testIMC[CT13]" classname="test.IMCParametrizadoTest" time="0.036"/>
+  <testcase name="testIMC[CT14]" classname="test.IMCParametrizadoTest" time="0.048"/>
+  <testcase name="testIMC[CT15]" classname="test.IMCParametrizadoTest" time="0.032"/>
+  <testcase name="testIMC[CT16]" classname="test.IMCParametrizadoTest" time="0.035"/>
+  <testcase name="testIMC[CT17]" classname="test.IMCParametrizadoTest" time="0.031"/>
+  <testcase name="testIMC[CT18]" classname="test.IMCParametrizadoTest" time="0.029"/>
+  <testcase name="testIMC[CT19]" classname="test.IMCParametrizadoTest" time="0.026"/>
+  <testcase name="testIMC[CT20]" classname="test.IMCParametrizadoTest" time="0.033"/>
+  <testcase name="testIMC[CT21]" classname="test.IMCParametrizadoTest" time="0.025"/>
+  <testcase name="testIMC[CT22]" classname="test.IMCParametrizadoTest" time="0.032"/>
+  <testcase name="testIMC[CT23]" classname="test.IMCParametrizadoTest" time="0.025"/>
+  <testcase name="testIMC[CT24]" classname="test.IMCParametrizadoTest" time="0.036"/>
+  <testcase name="testIMC[CT25]" classname="test.IMCParametrizadoTest" time="0.027"/>
+  <testcase name="testIMC[CT26]" classname="test.IMCParametrizadoTest" time="0.025"/>
+  <testcase name="testIMC[CT27]" classname="test.IMCParametrizadoTest" time="0.026"/>
+  <testcase name="testIMC[CT28]" classname="test.IMCParametrizadoTest" time="0.024"/>
+  <testcase name="testIMC[CT29]" classname="test.IMCParametrizadoTest" time="0.027"/>
+  <testcase name="testIMC[CT30]" classname="test.IMCParametrizadoTest" time="0.025"/>
+  <testcase name="testIMC[CT31]" classname="test.IMCParametrizadoTest" time="0.026"/>
+  <testcase name="testIMC[CT32]" classname="test.IMCParametrizadoTest" time="0.022"/>
+  <testcase name="testIMC[CT33]" classname="test.IMCParametrizadoTest" time="0.024"/>
+  <testcase name="testIMC[CT34]" classname="test.IMCParametrizadoTest" time="0.026"/>
+  <testcase name="testIMC[CT35]" classname="test.IMCParametrizadoTest" time="0.029"/>
+  <testcase name="testIMC[CT36]" classname="test.IMCParametrizadoTest" time="0.033"/>
+  <testcase name="testIMC[CT37]" classname="test.IMCParametrizadoTest" time="0.021"/>
+  <testcase name="testIMC[CT38]" classname="test.IMCParametrizadoTest" time="0.025"/>
+  <testcase name="testIMC[CT39]" classname="test.IMCParametrizadoTest" time="0.026"/>
+  <testcase name="testIMC[CT40]" classname="test.IMCParametrizadoTest" time="0.037"/>
+  <testcase name="testIMC[CT41]" classname="test.IMCParametrizadoTest" time="0.029"/>
+  <testcase name="testIMC[CT42]" classname="test.IMCParametrizadoTest" time="0.021"/>
+  <testcase name="testIMC[CT43]" classname="test.IMCParametrizadoTest" time="0.037">
+    <failure message="expected:&lt;12.5&gt; but was:&lt;32.0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<12.5> but was:<32.0>
+	at test.IMCParametrizadoTest.testIMC(IMCParametrizadoTest.java:124)
+]]></failure>
+  </testcase>
+  <testcase name="testIMC[CT44]" classname="test.IMCParametrizadoTest" time="0.032">
+    <failure message="expected:&lt;[Abaixo do p]eso&gt; but was:&lt;[Ob]eso&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Abaixo do p]eso> but was:<[Ob]eso>
+	at test.IMCParametrizadoTest.testIMC(IMCParametrizadoTest.java:125)
+]]></failure>
+  </testcase>
+  <testcase name="testIMC[CT45]" classname="test.IMCParametrizadoTest" time="0.02"/>
+</testsuite>

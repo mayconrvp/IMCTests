@@ -1,0 +1,46 @@
+Caso de Teste,Sexo,Peso,Altura,IMC,Classificacao,Falha
+CT01,M,59,1.7,20.415,Abaixo do peso,
+CT02,M,60,1.7,20.761,No peso normal,
+CT03,M,60.7,1.7,21.003,No peso normal,
+CT04,M,84.5,1.79,26.372,No peso normal,
+CT05,M,84.6,1.79,26.404,Marginalmente acima do peso,
+CT06,M,84.6,1.82,25.540,No peso normal,
+CT07,M,90,1.8,27.778,Marginalmente acima do peso,
+CT08,M,89.3,1.79,27.871,Acima do peso ideal,
+CT09,M,89,1.78,28.090,Acima do peso ideal,
+CT10,M,86.5,1.67,31.016,Acima do peso ideal,
+CT11,M,86.8,1.67,31.123,Obeso,
+CT12,M,95,1.7,32.872,Obeso,
+CT13,M,200,1.88,56.587,Obeso,
+CT14,M,0,1.7,,,Falha: O peso deve ser um numero maior que zero
+CT15,M,-78,1.65,-28.650,,Falha: O peso deve ser um numero maior que zero
+CT16,M,78,-1.65,28.650,,Falha: A altura deve ser um numero maior que zero e menor que 3m
+CT17,M,,1.8,,,Falha: O peso deve ser um numero maior que zero
+CT18,M,93,,,,Falha: A altura deve ser um numero maior que zero e menor que 3m
+CT19,M,50,3.1,5.203,,Falha: A altura deve ser um numero maior que zero e menor que 3m
+CT20,F,48,1.6,18.750,Abaixo do peso,
+CT21,F,48.8,1.6,19.063,Abaixo do peso,
+CT22,F,48.9,1.6,19.102,No peso normal,
+CT23,F,49.4,1.6,19.297,No peso normal,
+CT24,F,67.7,1.62,25.796,No peso normal,
+CT25,F,67.9,1.62,25.873,Marginalmente acima do peso,
+CT26,F,76,1.7,26.298,Marginalmente acima do peso,
+CT27,F,68,1.58,27.239,Marginalmente acima do peso,
+CT28,F,68.4,1.58,27.399,Acima do peso ideal,
+CT29,F,68.5,1.58,27.440,Acima do peso ideal,
+CT30,F,70,1.57,28.399,Acima do peso ideal,
+CT31,F,84.7,1.62,32.274,Acima do peso ideal,
+CT32,F,85,1.62,32.388,Obeso,
+CT33,F,90,1.65,33.058,Obeso,
+CT34,F,0,1.7,,,Falha: O peso deve ser um numero maior que zero
+CT35,F,88,0,,,Falha: A altura deve ser um numero maior que zero e menor que 3m
+CT36,F,-78,1.65,-28.650,,Falha: O peso deve ser um numero maior que zero
+CT37,F,78,-1.65,28.650,,Falha: A altura deve ser um numero maior que zero e menor que 3m
+CT38,F,,1.8,,,Falha: O peso deve ser um numero maior que zero
+CT39,F,93,,,,Falha: A altura deve ser um numero maior que zero e menor que 3m
+CT40,F,50,4,3.125,,Falha: A altura deve ser um numero maior que zero e menor que 3m
+CT41,,50,2,12.500,,Falha: E necessario informar o sexo (M F)
+CT42,X,50,2,12.500,,Falha: E necessario informar o sexo (M F)
+CT43,M,50,2,32.000,Abaixo do peso ideal,
+CT44,M,50,2,12.500,Obeso,
+CT45,M,null,1.65,,,Falha: O peso deve ser um numero maior que zero

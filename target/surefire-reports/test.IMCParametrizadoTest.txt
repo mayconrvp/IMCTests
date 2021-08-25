@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: test.IMCParametrizadoTest
+-------------------------------------------------------------------------------
+Tests run: 45, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 2.515 sec <<< FAILURE! - in test.IMCParametrizadoTest
+testIMC[CT43](test.IMCParametrizadoTest)  Time elapsed: 0.037 sec  <<< FAILURE!
+java.lang.AssertionError: expected:<12.5> but was:<32.0>
+	at test.IMCParametrizadoTest.testIMC(IMCParametrizadoTest.java:124)
+
+testIMC[CT44](test.IMCParametrizadoTest)  Time elapsed: 0.032 sec  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Abaixo do p]eso> but was:<[Ob]eso>
+	at test.IMCParametrizadoTest.testIMC(IMCParametrizadoTest.java:125)
+

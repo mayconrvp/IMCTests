@@ -1,0 +1,843 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="test.IMCParametrizadoTestCsv" time="0.816" tests="45" errors="0" skipped="0" failures="18">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="11.0.11+9-LTS-194"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\mayco\Desktop\Desafio\JUnitODS"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://openjdk.java.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="BR"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="test" value="test.IMCParametrizadoTestCsv"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\mayco\Desktop\Desafio\JUnitODS"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="11.0.11+9-LTS-194"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\mayco\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="maven.ext.class.path" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven-nblib\netbeans-eventspy.jar"/>
+    <property name="classworlds.conf" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-11.0.11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;C:\ProgramData\chocolatey\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\mayco\AppData\Local\Microsoft\WindowsApps;;C:\Users\mayco\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.1.1\bin;;C:\Users\mayco\AppData\Roaming\npm;."/>
+    <property name="maven.conf" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="55.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\mayco"/>
+    <property name="user.timezone" value="America/Sao_Paulo"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="user.name" value="mayco"/>
+    <property name="java.class.path" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher -Dtest=test.IMCParametrizadoTestCsv -Dmaven.ext.class.path=C:\Program Files\NetBeans-12.0\netbeans\java\maven-nblib\netbeans-eventspy.jar -Dfile.encoding=UTF-8 test-compile surefire:test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-11.0.11"/>
+    <property name="user.language" value="pt"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="11.0.11"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="C:\Program Files\NetBeans-12.0\netbeans\java\maven\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="18.9"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="testIMC[CT01]" classname="test.IMCParametrizadoTestCsv" time="0.089"/>
+  <testcase name="testIMC[CT02]" classname="test.IMCParametrizadoTestCsv" time="0.007"/>
+  <testcase name="testIMC[CT03]" classname="test.IMCParametrizadoTestCsv" time="0.014"/>
+  <testcase name="testIMC[CT04]" classname="test.IMCParametrizadoTestCsv" time="0.008"/>
+  <testcase name="testIMC[CT05]" classname="test.IMCParametrizadoTestCsv" time="0.002"/>
+  <testcase name="testIMC[CT06]" classname="test.IMCParametrizadoTestCsv" time="0.002"/>
+  <testcase name="testIMC[CT07]" classname="test.IMCParametrizadoTestCsv" time="0.002"/>
+  <testcase name="testIMC[CT08]" classname="test.IMCParametrizadoTestCsv" time="0.002"/>
+  <testcase name="testIMC[CT09]" classname="test.IMCParametrizadoTestCsv" time="0.001"/>
+  <testcase name="testIMC[CT10]" classname="test.IMCParametrizadoTestCsv" time="0.002"/>
+  <testcase name="testIMC[CT11]" classname="test.IMCParametrizadoTestCsv" time="0.001"/>
+  <testcase name="testIMC[CT12]" classname="test.IMCParametrizadoTestCsv" time="0.002"/>
+  <testcase name="testIMC[CT13]" classname="test.IMCParametrizadoTestCsv" time="0.002"/>
+  <testcase name="testIMC[CT14]" classname="test.IMCParametrizadoTestCsv" time="0.168">
+    <failure message="&#10;Expected: (an instance of java.lang.RuntimeException and exception with message a string containing &quot;Falha: O peso deve ser um numero maior que zero&quot;)&#10;     but: exception with message a string containing &quot;Falha: O peso deve ser um numero maior que zero&quot; message was &quot;Falha: O peso deve ser um número maior que zero&quot;&#10;Stacktrace was: java.lang.RuntimeException: Falha: O peso deve ser um número maior que zero&#10;	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:19)&#10;	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)&#10;	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)&#10;	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: (an instance of java.lang.RuntimeException and exception with message a string containing "Falha: O peso deve ser um numero maior que zero")
+     but: exception with message a string containing "Falha: O peso deve ser um numero maior que zero" message was "Falha: O peso deve ser um número maior que zero"
+Stacktrace was: java.lang.RuntimeException: Falha: O peso deve ser um número maior que zero
+	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:19)
+	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+</failure>
+  </testcase>
+  <testcase name="testIMC[CT15]" classname="test.IMCParametrizadoTestCsv" time="0.016">
+    <failure message="&#10;Expected: (an instance of java.lang.RuntimeException and exception with message a string containing &quot;Falha: O peso deve ser um numero maior que zero&quot;)&#10;     but: exception with message a string containing &quot;Falha: O peso deve ser um numero maior que zero&quot; message was &quot;Falha: O peso deve ser um número maior que zero&quot;&#10;Stacktrace was: java.lang.RuntimeException: Falha: O peso deve ser um número maior que zero&#10;	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:19)&#10;	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)&#10;	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)&#10;	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: (an instance of java.lang.RuntimeException and exception with message a string containing "Falha: O peso deve ser um numero maior que zero")
+     but: exception with message a string containing "Falha: O peso deve ser um numero maior que zero" message was "Falha: O peso deve ser um número maior que zero"
+Stacktrace was: java.lang.RuntimeException: Falha: O peso deve ser um número maior que zero
+	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:19)
+	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+</failure>
+  </testcase>
+  <testcase name="testIMC[CT16]" classname="test.IMCParametrizadoTestCsv" time="0.001">
+    <failure message="&#10;Expected: (an instance of java.lang.RuntimeException and exception with message a string containing &quot;Falha: A altura deve ser um numero maior que zero e menor que 3m&quot;)&#10;     but: exception with message a string containing &quot;Falha: A altura deve ser um numero maior que zero e menor que 3m&quot; message was &quot;Falha: A altura deve ser um número maior que zero e menor que 3m&quot;&#10;Stacktrace was: java.lang.RuntimeException: Falha: A altura deve ser um número maior que zero e menor que 3m&#10;	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:28)&#10;	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#10;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)&#10;	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)&#10;	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: (an instance of java.lang.RuntimeException and exception with message a string containing "Falha: A altura deve ser um numero maior que zero e menor que 3m")
+     but: exception with message a string containing "Falha: A altura deve ser um numero maior que zero e menor que 3m" message was "Falha: A altura deve ser um número maior que zero e menor que 3m"
+Stacktrace was: java.lang.RuntimeException: Falha: A altura deve ser um número maior que zero e menor que 3m
+	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:28)
+	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+</failure>
+  </testcase>
+  <testcase name="testIMC[CT17]" classname="test.IMCParametrizadoTestCsv" time="0.007">
+    <failure message="&#10;Expected: (an instance of java.lang.RuntimeException and exception with message a string containing &quot;Falha: O peso deve ser um numero maior que zero&quot;)&#10;     but: exception with message a string containing &quot;Falha: O peso deve ser um numero maior que zero&quot; message was &quot;Falha: O peso deve ser um número maior que zero&quot;&#10;Stacktrace was: java.lang.RuntimeException: Falha: O peso deve ser um número maior que zero&#10;	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:19)&#10;	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)&#10;	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)&#10;	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)&#10;	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: (an instance of java.lang.RuntimeException and exception with message a string containing "Falha: O peso deve ser um numero maior que zero")
+     but: exception with message a string containing "Falha: O peso deve ser um numero maior que zero" message was "Falha: O peso deve ser um número maior que zero"
+Stacktrace was: java.lang.RuntimeException: Falha: O peso deve ser um número maior que zero
+	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:19)
+	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+</failure>
+  </testcase>
+  <testcase name="testIMC[CT18]" classname="test.IMCParametrizadoTestCsv" time="0.03">
+    <failure message="&#10;Expected: (an instance of java.lang.RuntimeException and exception with message a string containing &quot;Falha: A altura deve ser um numero maior que zero e menor que 3m&quot;)&#10;     but: exception with message a string containing &quot;Falha: A altura deve ser um numero maior que zero e menor que 3m&quot; message was &quot;Falha: A altura deve ser um número maior que zero e menor que 3m&quot;&#10;Stacktrace was: java.lang.RuntimeException: Falha: A altura deve ser um número maior que zero e menor que 3m&#10;	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:28)&#10;	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)&#10;	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)&#10;	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)&#10;	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: (an instance of java.lang.RuntimeException and exception with message a string containing "Falha: A altura deve ser um numero maior que zero e menor que 3m")
+     but: exception with message a string containing "Falha: A altura deve ser um numero maior que zero e menor que 3m" message was "Falha: A altura deve ser um número maior que zero e menor que 3m"
+Stacktrace was: java.lang.RuntimeException: Falha: A altura deve ser um número maior que zero e menor que 3m
+	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:28)
+	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+</failure>
+  </testcase>
+  <testcase name="testIMC[CT19]" classname="test.IMCParametrizadoTestCsv" time="0.021">
+    <failure message="&#10;Expected: (an instance of java.lang.RuntimeException and exception with message a string containing &quot;Falha: A altura deve ser um numero maior que zero e menor que 3m&quot;)&#10;     but: exception with message a string containing &quot;Falha: A altura deve ser um numero maior que zero e menor que 3m&quot; message was &quot;Falha: A altura deve ser um número maior que zero e menor que 3m&quot;&#10;Stacktrace was: java.lang.RuntimeException: Falha: A altura deve ser um número maior que zero e menor que 3m&#10;	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:28)&#10;	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)&#10;	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)&#10;	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)&#10;	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: (an instance of java.lang.RuntimeException and exception with message a string containing "Falha: A altura deve ser um numero maior que zero e menor que 3m")
+     but: exception with message a string containing "Falha: A altura deve ser um numero maior que zero e menor que 3m" message was "Falha: A altura deve ser um número maior que zero e menor que 3m"
+Stacktrace was: java.lang.RuntimeException: Falha: A altura deve ser um número maior que zero e menor que 3m
+	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:28)
+	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+</failure>
+  </testcase>
+  <testcase name="testIMC[CT20]" classname="test.IMCParametrizadoTestCsv" time="0.011"/>
+  <testcase name="testIMC[CT21]" classname="test.IMCParametrizadoTestCsv" time="0.015"/>
+  <testcase name="testIMC[CT22]" classname="test.IMCParametrizadoTestCsv" time="0.015"/>
+  <testcase name="testIMC[CT23]" classname="test.IMCParametrizadoTestCsv" time="0.002"/>
+  <testcase name="testIMC[CT24]" classname="test.IMCParametrizadoTestCsv" time="0.003"/>
+  <testcase name="testIMC[CT25]" classname="test.IMCParametrizadoTestCsv" time="0.001"/>
+  <testcase name="testIMC[CT26]" classname="test.IMCParametrizadoTestCsv" time="0.002"/>
+  <testcase name="testIMC[CT27]" classname="test.IMCParametrizadoTestCsv" time="0.002"/>
+  <testcase name="testIMC[CT28]" classname="test.IMCParametrizadoTestCsv" time="0.002"/>
+  <testcase name="testIMC[CT29]" classname="test.IMCParametrizadoTestCsv" time="0.001"/>
+  <testcase name="testIMC[CT30]" classname="test.IMCParametrizadoTestCsv" time="0.001"/>
+  <testcase name="testIMC[CT31]" classname="test.IMCParametrizadoTestCsv" time="0.002"/>
+  <testcase name="testIMC[CT32]" classname="test.IMCParametrizadoTestCsv" time="0.002"/>
+  <testcase name="testIMC[CT33]" classname="test.IMCParametrizadoTestCsv" time="0.002"/>
+  <testcase name="testIMC[CT34]" classname="test.IMCParametrizadoTestCsv" time="0.009">
+    <failure message="&#10;Expected: (an instance of java.lang.RuntimeException and exception with message a string containing &quot;Falha: O peso deve ser um numero maior que zero&quot;)&#10;     but: exception with message a string containing &quot;Falha: O peso deve ser um numero maior que zero&quot; message was &quot;Falha: O peso deve ser um número maior que zero&quot;&#10;Stacktrace was: java.lang.RuntimeException: Falha: O peso deve ser um número maior que zero&#10;	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:19)&#10;	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)&#10;	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)&#10;	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)&#10;	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: (an instance of java.lang.RuntimeException and exception with message a string containing "Falha: O peso deve ser um numero maior que zero")
+     but: exception with message a string containing "Falha: O peso deve ser um numero maior que zero" message was "Falha: O peso deve ser um número maior que zero"
+Stacktrace was: java.lang.RuntimeException: Falha: O peso deve ser um número maior que zero
+	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:19)
+	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+</failure>
+  </testcase>
+  <testcase name="testIMC[CT35]" classname="test.IMCParametrizadoTestCsv" time="0.011">
+    <failure message="&#10;Expected: (an instance of java.lang.RuntimeException and exception with message a string containing &quot;Falha: A altura deve ser um numero maior que zero e menor que 3m&quot;)&#10;     but: exception with message a string containing &quot;Falha: A altura deve ser um numero maior que zero e menor que 3m&quot; message was &quot;Falha: A altura deve ser um número maior que zero e menor que 3m&quot;&#10;Stacktrace was: java.lang.RuntimeException: Falha: A altura deve ser um número maior que zero e menor que 3m&#10;	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:28)&#10;	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)&#10;	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)&#10;	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)&#10;	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: (an instance of java.lang.RuntimeException and exception with message a string containing "Falha: A altura deve ser um numero maior que zero e menor que 3m")
+     but: exception with message a string containing "Falha: A altura deve ser um numero maior que zero e menor que 3m" message was "Falha: A altura deve ser um número maior que zero e menor que 3m"
+Stacktrace was: java.lang.RuntimeException: Falha: A altura deve ser um número maior que zero e menor que 3m
+	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:28)
+	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+</failure>
+  </testcase>
+  <testcase name="testIMC[CT36]" classname="test.IMCParametrizadoTestCsv" time="0.009">
+    <failure message="&#10;Expected: (an instance of java.lang.RuntimeException and exception with message a string containing &quot;Falha: O peso deve ser um numero maior que zero&quot;)&#10;     but: exception with message a string containing &quot;Falha: O peso deve ser um numero maior que zero&quot; message was &quot;Falha: O peso deve ser um número maior que zero&quot;&#10;Stacktrace was: java.lang.RuntimeException: Falha: O peso deve ser um número maior que zero&#10;	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:19)&#10;	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)&#10;	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)&#10;	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)&#10;	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: (an instance of java.lang.RuntimeException and exception with message a string containing "Falha: O peso deve ser um numero maior que zero")
+     but: exception with message a string containing "Falha: O peso deve ser um numero maior que zero" message was "Falha: O peso deve ser um número maior que zero"
+Stacktrace was: java.lang.RuntimeException: Falha: O peso deve ser um número maior que zero
+	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:19)
+	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+</failure>
+  </testcase>
+  <testcase name="testIMC[CT37]" classname="test.IMCParametrizadoTestCsv" time="0.007">
+    <failure message="&#10;Expected: (an instance of java.lang.RuntimeException and exception with message a string containing &quot;Falha: A altura deve ser um numero maior que zero e menor que 3m&quot;)&#10;     but: exception with message a string containing &quot;Falha: A altura deve ser um numero maior que zero e menor que 3m&quot; message was &quot;Falha: A altura deve ser um número maior que zero e menor que 3m&quot;&#10;Stacktrace was: java.lang.RuntimeException: Falha: A altura deve ser um número maior que zero e menor que 3m&#10;	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:28)&#10;	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)&#10;	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)&#10;	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)&#10;	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: (an instance of java.lang.RuntimeException and exception with message a string containing "Falha: A altura deve ser um numero maior que zero e menor que 3m")
+     but: exception with message a string containing "Falha: A altura deve ser um numero maior que zero e menor que 3m" message was "Falha: A altura deve ser um número maior que zero e menor que 3m"
+Stacktrace was: java.lang.RuntimeException: Falha: A altura deve ser um número maior que zero e menor que 3m
+	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:28)
+	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+</failure>
+  </testcase>
+  <testcase name="testIMC[CT38]" classname="test.IMCParametrizadoTestCsv" time="0.025">
+    <failure message="&#10;Expected: (an instance of java.lang.RuntimeException and exception with message a string containing &quot;Falha: O peso deve ser um numero maior que zero&quot;)&#10;     but: exception with message a string containing &quot;Falha: O peso deve ser um numero maior que zero&quot; message was &quot;Falha: O peso deve ser um número maior que zero&quot;&#10;Stacktrace was: java.lang.RuntimeException: Falha: O peso deve ser um número maior que zero&#10;	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:19)&#10;	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)&#10;	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)&#10;	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)&#10;	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: (an instance of java.lang.RuntimeException and exception with message a string containing "Falha: O peso deve ser um numero maior que zero")
+     but: exception with message a string containing "Falha: O peso deve ser um numero maior que zero" message was "Falha: O peso deve ser um número maior que zero"
+Stacktrace was: java.lang.RuntimeException: Falha: O peso deve ser um número maior que zero
+	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:19)
+	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+</failure>
+  </testcase>
+  <testcase name="testIMC[CT39]" classname="test.IMCParametrizadoTestCsv" time="0.005">
+    <failure message="&#10;Expected: (an instance of java.lang.RuntimeException and exception with message a string containing &quot;Falha: A altura deve ser um numero maior que zero e menor que 3m&quot;)&#10;     but: exception with message a string containing &quot;Falha: A altura deve ser um numero maior que zero e menor que 3m&quot; message was &quot;Falha: A altura deve ser um número maior que zero e menor que 3m&quot;&#10;Stacktrace was: java.lang.RuntimeException: Falha: A altura deve ser um número maior que zero e menor que 3m&#10;	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:28)&#10;	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)&#10;	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)&#10;	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)&#10;	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: (an instance of java.lang.RuntimeException and exception with message a string containing "Falha: A altura deve ser um numero maior que zero e menor que 3m")
+     but: exception with message a string containing "Falha: A altura deve ser um numero maior que zero e menor que 3m" message was "Falha: A altura deve ser um número maior que zero e menor que 3m"
+Stacktrace was: java.lang.RuntimeException: Falha: A altura deve ser um número maior que zero e menor que 3m
+	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:28)
+	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+</failure>
+  </testcase>
+  <testcase name="testIMC[CT40]" classname="test.IMCParametrizadoTestCsv" time="0.01">
+    <failure message="&#10;Expected: (an instance of java.lang.RuntimeException and exception with message a string containing &quot;Falha: A altura deve ser um numero maior que zero e menor que 3m&quot;)&#10;     but: exception with message a string containing &quot;Falha: A altura deve ser um numero maior que zero e menor que 3m&quot; message was &quot;Falha: A altura deve ser um número maior que zero e menor que 3m&quot;&#10;Stacktrace was: java.lang.RuntimeException: Falha: A altura deve ser um número maior que zero e menor que 3m&#10;	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:28)&#10;	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)&#10;	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)&#10;	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)&#10;	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: (an instance of java.lang.RuntimeException and exception with message a string containing "Falha: A altura deve ser um numero maior que zero e menor que 3m")
+     but: exception with message a string containing "Falha: A altura deve ser um numero maior que zero e menor que 3m" message was "Falha: A altura deve ser um número maior que zero e menor que 3m"
+Stacktrace was: java.lang.RuntimeException: Falha: A altura deve ser um número maior que zero e menor que 3m
+	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:28)
+	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+</failure>
+  </testcase>
+  <testcase name="testIMC[CT41]" classname="test.IMCParametrizadoTestCsv" time="0.009">
+    <failure message="&#10;Expected: (an instance of java.lang.RuntimeException and exception with message a string containing &quot;Falha: E necessario informar o sexo (M F)&quot;)&#10;     but: exception with message a string containing &quot;Falha: E necessario informar o sexo (M F)&quot; message was &quot;Falha: É necessário informar o sexo (M, F)&quot;&#10;Stacktrace was: java.lang.RuntimeException: Falha: É necessário informar o sexo (M, F)&#10;	at com.ufes.junitods.MetodoIMC.classificar(MetodoIMC.java:75)&#10;	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:174)&#10;	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)&#10;	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)&#10;	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: (an instance of java.lang.RuntimeException and exception with message a string containing "Falha: E necessario informar o sexo (M F)")
+     but: exception with message a string containing "Falha: E necessario informar o sexo (M F)" message was "Falha: É necessário informar o sexo (M, F)"
+Stacktrace was: java.lang.RuntimeException: Falha: É necessário informar o sexo (M, F)
+	at com.ufes.junitods.MetodoIMC.classificar(MetodoIMC.java:75)
+	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:174)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+</failure>
+  </testcase>
+  <testcase name="testIMC[CT42]" classname="test.IMCParametrizadoTestCsv" time="0.003">
+    <failure message="&#10;Expected: (an instance of java.lang.RuntimeException and exception with message a string containing &quot;Falha: E necessario informar o sexo (M F)&quot;)&#10;     but: exception with message a string containing &quot;Falha: E necessario informar o sexo (M F)&quot; message was &quot;Falha: É necessário informar o sexo (M, F)&quot;&#10;Stacktrace was: java.lang.RuntimeException: Falha: É necessário informar o sexo (M, F)&#10;	at com.ufes.junitods.MetodoIMC.classificar(MetodoIMC.java:75)&#10;	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:174)&#10;	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)&#10;	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)&#10;	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: (an instance of java.lang.RuntimeException and exception with message a string containing "Falha: E necessario informar o sexo (M F)")
+     but: exception with message a string containing "Falha: E necessario informar o sexo (M F)" message was "Falha: É necessário informar o sexo (M, F)"
+Stacktrace was: java.lang.RuntimeException: Falha: É necessário informar o sexo (M, F)
+	at com.ufes.junitods.MetodoIMC.classificar(MetodoIMC.java:75)
+	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:174)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+</failure>
+  </testcase>
+  <testcase name="testIMC[CT43]" classname="test.IMCParametrizadoTestCsv" time="0.053">
+    <failure message="expected:&lt;12.5&gt; but was:&lt;32.0&gt;" type="java.lang.AssertionError"><![CDATA[java.lang.AssertionError: expected:<12.5> but was:<32.0>
+	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:176)
+]]></failure>
+  </testcase>
+  <testcase name="testIMC[CT44]" classname="test.IMCParametrizadoTestCsv" time="0.01">
+    <failure message="expected:&lt;[Abaixo do p]eso&gt; but was:&lt;[Ob]eso&gt;" type="org.junit.ComparisonFailure"><![CDATA[org.junit.ComparisonFailure: expected:<[Abaixo do p]eso> but was:<[Ob]eso>
+	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:177)
+]]></failure>
+  </testcase>
+  <testcase name="testIMC[CT45]" classname="test.IMCParametrizadoTestCsv" time="0.003">
+    <failure message="&#10;Expected: (an instance of java.lang.RuntimeException and exception with message a string containing &quot;Falha: O peso deve ser um numero maior que zero&quot;)&#10;     but: exception with message a string containing &quot;Falha: O peso deve ser um numero maior que zero&quot; message was &quot;Falha: O peso deve ser um número maior que zero&quot;&#10;Stacktrace was: java.lang.RuntimeException: Falha: O peso deve ser um número maior que zero&#10;	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:19)&#10;	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)&#10;	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)&#10;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#10;	at java.base/java.lang.reflect.Method.invoke(Method.java:566)&#10;	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)&#10;	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)&#10;	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)&#10;	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)&#10;	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)&#10;	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)&#10;	at org.junit.rules.RunRules.evaluate(RunRules.java:20)&#10;	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)&#10;	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.junit.runners.Suite.runChild(Suite.java:128)&#10;	at org.junit.runners.Suite.runChild(Suite.java:27)&#10;	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)&#10;	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)&#10;	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)&#10;	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)&#10;	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)&#10;	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)&#10;	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)&#10;	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)&#10;	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)&#10;" type="java.lang.AssertionError">java.lang.AssertionError: 
+
+Expected: (an instance of java.lang.RuntimeException and exception with message a string containing "Falha: O peso deve ser um numero maior que zero")
+     but: exception with message a string containing "Falha: O peso deve ser um numero maior que zero" message was "Falha: O peso deve ser um número maior que zero"
+Stacktrace was: java.lang.RuntimeException: Falha: O peso deve ser um número maior que zero
+	at com.ufes.junitods.MetodoIMC.fazerCalculo(MetodoIMC.java:19)
+	at test.IMCParametrizadoTestCsv.testIMC(IMCParametrizadoTestCsv.java:173)
+	at jdk.internal.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.rules.ExpectedException$ExpectedExceptionStatement.evaluate(ExpectedException.java:239)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+</failure>
+  </testcase>
+</testsuite>
