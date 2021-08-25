@@ -1,10 +1,7 @@
 package test;
 
 import com.opencsv.CSVReader;
-import com.opencsv.CSVWriter;
 import com.ufes.junitods.MetodoIMC;
-import java.awt.Color;
-import java.io.BufferedReader;
 import java.io.BufferedWriter;
 import java.io.File;
 import java.io.FileReader;
@@ -16,8 +13,6 @@ import java.util.Collection;
 import java.util.List;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import org.jopendocument.dom.spreadsheet.MutableCell;
-import org.jopendocument.dom.spreadsheet.Sheet;
 
 import org.junit.AfterClass;
 import org.junit.Rule;
@@ -226,7 +221,12 @@ public class IMCParametrizadoTestCsv {
 
                     lineNumber++;
                 }
+                
             }
+            
+            linhas.forEach(cols ->{
+                System.out.println(cols);
+            });
             
 
         } catch (IOException ex) {
